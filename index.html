@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="middle-screen.js"></script>
-	<link rel="stylesheet" type="text/css" href="middle-screen.css">
-	<title>Mind, Matter, & Media Lab</title>
+	<!-- meta http-equiv="refresh" content="60" -->
+	<script src="scripts/middle-screen.js"></script>
+	<link rel="stylesheet" type="text/css" href="scripts/middle-screen.css">
+	<title>Public computing @ DigiPlay</title>
 </head>
 
 <body onload="showSlides()">
 
 <header>
 <img class="uni-logo" src="images/UC.png"/>
-<h1 class="media-text">Mind, Matter, & Media Lab</h1>
-<h2 class="welcome">Welcome to public computing at the University of Calgary!</h2>
+<h1 class="welcome">Welcome to public computing at DigiPlay.</h2>
 </header>
 
 <div class="slideshow-container">
-	<div class="click">
-	<img class="click" src="images/click-here-button.gif"/>
+	<p id="click-here"><img class="click" src="https://smartexcel.sg/wp-content/uploads/2018/10/click-here.png"/></p>
+	<div class="mySlides fade">
+  	<p class="question" onclick="showMore(this)">Can technology help us talk about social issues?</p>
 	</div>
-<div class="mySlides fade">
-  <p class="question" onclick="showMore(this)">Can technology help us talk about social issues?</p></a>
+
+	<div class="mySlides fade">
+  	<p class="question" onclick="showMore(this)">What can we learn from interacting with simulations of society?</p>
+	</div>
+
+	<div class="mySlides fade">
+  	<p class="question" onclick="showMore(this)">How can code support conversations about society?</p>
+	</div>
 </div>
 
-<div class="mySlides fade">
-  <p class="question" onclick="showMore(this)">What can we learn from interacting with simulations of society?</p>
+
+<div class="dots">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
 </div>
 
-<div class="mySlides fade">
-  <p class="question" onclick="showMore(this)">How can code support conversations about society?</p>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
+<h3 class="media-text">This work features original work by the Mind, Matter, & Media Lab:</h3>
+<h6 class="media-text">Pratim Sengupta, Marie-Claire Shanahan</h6>
+<h6 class="media-text">Hebah Alamr, Apoorve Chokshi, Michael Cutler, Maryam Hachem, Basak Helvaci Özacar, Marilú Lam Herrera, Stephanie Hladik, Jordan Kidney, Dylan Paré</h6>
+<h6 class="media-text">John Craig, and Robert Brown</h6>
 </body>
-</html> 
+</html>
