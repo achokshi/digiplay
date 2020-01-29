@@ -124,6 +124,9 @@ img {
   font-size: 25px;
 }
 
+.qt-stories  {
+  font-size: 25px;
+}
 
 /* Fading animation */
 .fade {
@@ -168,3 +171,4 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
